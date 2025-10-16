@@ -110,6 +110,10 @@ limitations under the License.
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
+          <!-- Specify your desired name here -->
+          <finalName>print-diag-udf</finalName>
+          <!-- Set to false to remove the default suffix like '-jar-with-dependencies' -->
+          <appendAssemblyId>false</appendAssemblyId>
         </configuration>
         <executions>
           <execution>
